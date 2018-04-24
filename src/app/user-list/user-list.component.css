@@ -1,0 +1,46 @@
+.main-container > h2 {
+    padding-left: 2.5rem;
+}
+.user-list-header .age-sort {
+    text-align: right;
+    margin-right: 2rem;
+}
+.age-sort .age-sort-btn {
+    margin-left: .5rem;
+    height: 2rem;
+    min-width: 5rem;
+    background-color: #056aef;
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.age-sort .age-sort-btn:hover {
+    background-color: #0666af;
+}
+.user-list li {
+    list-style: none;
+    display: flex;
+    border: 1px solid #d2d2d2;
+    margin-top: .75rem;
+}
+.user-list-header {
+    font-size: 1.25rem;
+}
+.user-list-header span {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.user-age, .user-lang, .user-image {
+    flex-grow: 1;
+}
+.user-name {
+    flex-grow: 2;
+}
+app-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

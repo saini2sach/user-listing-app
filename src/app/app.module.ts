@@ -3,14 +3,29 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavComponent } from './nav/nav.component';
+import { UserListComponent } from './user-list/user-list.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { DateComponent } from './date/date.component';
+import { NgDatepickerModule } from 'ng2-datepicker';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
+    UserListComponent,
+    DateComponent,
+    UserComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    NgDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

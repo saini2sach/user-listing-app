@@ -1,0 +1,14 @@
+<div class="main-container">
+  <h2>These are the list of GITHUB-users:</h2>
+  <ul class="user-list">
+    <li class="user-list-header">
+      <span class="user-image">Image</span>
+      <span class="user-name">Name</span>
+      <span class="user-age age-sort">Age<button class="age-sort-btn" (click)="sortList()">Sort</button></span>
+      <span class="user-lang">Language</span>
+    </li>
+    <li *ngFor="let user of users" class="user-list-item">
+      <app-user [individualUser]="user"></app-user>
+    </li>
+  </ul>
+</div>

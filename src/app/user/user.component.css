@@ -1,0 +1,14 @@
+.user-age, .user-lang, .user-image {
+    flex-grow: 1;
+}
+.user-name {
+    flex-grow: 2;
+    font-size: 2rem;
+}
+.user-age {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.user-lang {
+    font-size: 1.25rem;
+}
