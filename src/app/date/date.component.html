@@ -1,3 +1,7 @@
 <div>
-    <ng-datepicker [(ngModel)]="date" [options]="options" class="my-datepicker"></ng-datepicker>
+    <ng-datepicker [(ngModel)]="date" [options]="options" class="my-datepicker" click=showSelecedDate()></ng-datepicker>
+</div>
+<div class="date-target-container">
+    <div class="selected-date">
+    </div>
 </div>

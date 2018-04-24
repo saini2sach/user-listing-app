@@ -21,5 +21,7 @@ export class DateComponent implements OnInit {
    }
   ngOnInit() {
   }
-
+  showSelecedDate() {
+    
+  }
 }

@@ -2,3 +2,15 @@
     margin-left: 40%;
     margin-top: 2rem;
 }
+.date-target-container {
+    position: relative;
+    background-color: brown;
+    opacity: 0.4;
+
+}
+.date-target-container .selected-date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+}
